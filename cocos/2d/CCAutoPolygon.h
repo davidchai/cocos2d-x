@@ -2,7 +2,7 @@
 Copyright (c) 2008-2010 Ricardo Quesada
 Copyright (c) 2010-2012 cocos2d-x.org
 Copyright (c) 2011      Zynga Inc.
-Copyright (c) 2013-2014 Chukong Technologies Inc.
+Copyright (c) 2013-2016 Chukong Technologies Inc.
 
 http://www.cocos2d-x.org
 
@@ -158,7 +158,7 @@ public:
     
     /**
      * reduce the amount of points so its faster for GPU to process and draw
-     * based on Ramer-Douglas-Puecker algorithm
+     * based on Ramer-Douglas-Peucker algorithm
      * @param   points  a vector of Vec2 points as input
      * @param   rect    a texture rect for specify an area of the image to avoid over reduction
      * @param   epsilon the perpendicular distance where points smaller than this value will be discarded
